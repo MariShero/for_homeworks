@@ -1,4 +1,5 @@
 # for_homeworks
+👋 Hi, I’m @MariShero
   * this page is made for homeworks
 
    _homework 11_12 წარმოადგენს მინი პროექტს და მისი მუშაობის პრინციპი ასეთია_ :
