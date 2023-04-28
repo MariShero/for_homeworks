@@ -30,8 +30,9 @@ while x != "no":
 #2
     data = json.loads(response.text)
     json_structure = json.dumps(data, indent=7)
-    f = open("json.txt", "w")
+    f = open("json.txt", "a")
     f.write(json_structure)
+    f.write("\n")
     f.close()
 
 #3
