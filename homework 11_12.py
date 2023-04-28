@@ -30,7 +30,9 @@ while x != "no":
 #2
     data = json.loads(response.text)
     json_structure = json.dumps(data, indent=7)
-    print(json_structure)
+    f = open("json.txt", "w")
+    f.write(json_structure)
+    f.close()
 
 #3
     city_list = []
